@@ -28,7 +28,7 @@ while read line; do
     <file>/home/eli/Изображения/Wallpapers/$line</file>
   </static>
   <transition>
-    <duration>5.0</duration>
+    <duration>2.0</duration>
     <from>/home/eli/Изображения/Wallpapers/$line</from>"
     x=$(( $x + 1 ))
 done < $FILE >> ~/precise.xml
